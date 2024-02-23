@@ -1,0 +1,167 @@
+:root{
+    --black-700: #1d1f23;
+    --gray-700: #123e35;
+    --cor-3: #2d4a43;
+    --cor-4: #69818d;
+    --cor-5: #afb3b7;
+    --cor-6: #5a636a;
+    --white: #fff;
+
+}
+
+*{
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  .navbar{
+    background-color: #EB6440;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .login{
+    margin-right: 160px;
+  }
+
+  .lgn{
+    margin-right: 66px;
+  }
+  .logo{
+    margin-left: 160px;
+  }
+footer{
+    background-color: #EB6440;
+    text-align: center;
+}
+.primeiralinha{
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height:600px;
+}
+.segundalinha{
+    display: flex;
+    flex-direction: row;
+    height: 820px;
+}
+.terceiralinha
+{   display: flex;
+    flex-direction: row;
+    height: 900px;
+}
+.segundalinha2{
+    display: flex;
+    flex-direction: row;
+    height: 610px;
+    max-height: 620px;
+}
+.fix img
+{ 
+    width: 601px;
+    height: 620px;
+    top: 2720px;
+    left: 719px;
+    border: 2px;
+
+}
+.fix2 img
+{ width: 601px;
+   height: 620px;
+ 
+
+}
+.terceiralinha2
+{   display: flex;
+    flex-direction: row;
+    height: 887px;
+}
+#centrer
+{
+  margin: 0 20%;
+}
+@media (max-width: 931px) {
+ 
+  
+  .logo{
+    margin-left: 30px;
+  }
+ .lgn{
+   margin-left: 190px;
+ }
+ .rgt{
+  margin-left: 170px;
+}
+
+.primeiralinha{
+  display: flex;
+  flex-direction: row;
+  width: 170px;
+  height: 198px;
+}
+.segundalinha{
+  display: flex;
+  flex-direction: row;
+  height: 270.5px;
+}
+.terceiralinha
+{   display: flex;
+  flex-direction: row;
+  height: 298px;
+}
+.segundalinha2{
+  display: flex;
+  flex-direction: row;
+  height: 610px;
+  max-height: 620px;
+}
+.fix img
+{ 
+  width: 198px;
+  height: 151px;
+
+}
+.fix2 img
+{ 
+  width: 198px;
+ height: 151px;
+
+
+}
+.terceiralinha2
+{   
+  position: relative;
+  bottom: 458px;
+  display: flex;
+  flex-direction: row;
+  height: 292px;
+}
+#centrer
+{
+margin: auto auto;
+width: 430px;
+}
+
+.navbar{
+  background-color: #EB6440;
+  height: 80px;
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer{
+  position: relative;
+  bottom: 458px;
+  background-color: #EB6440;
+  text-align: center;
+  width:396px ;
+}
+}
